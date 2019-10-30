@@ -1,0 +1,27 @@
+slirp4netns (0.4.2-1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release: 0.4.2
+
+ -- Cedric Hombourger <chombourger@gmail.com>  Wed, 30 Oct 2019 07:05:25 +0100
+
+slirp4netns (0.2.3-1) buster; urgency=medium
+
+  * New upstream releases:
+    - 0.2.2: check sscanf result when emulating ident, CVE-2019-9824
+    - 0.2.3: Fixes heap overflow in included libslirp, Closes: #933742,
+      CVE-2019-14378
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 25 Aug 2019 08:46:53 -0400
+
+slirp4netns (0.2.1-1) unstable; urgency=medium
+
+  * New upstream release (Fixes: CVE-2019-6778)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 27 Jan 2019 10:43:49 -0500
+
+slirp4netns (0.1~git20181119.5e4789b-1) unstable; urgency=medium
+
+  * Initial release (Closes: #917337)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 26 Dec 2018 09:52:59 -0500

@@ -1,0 +1,2 @@
+# Do not generate diff for changes in Makefile.am
+extend-diff-ignore = "(^|/)Makefile.am$"

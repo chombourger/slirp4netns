@@ -1,0 +1,2 @@
+Tests: make-check
+Restrictions: rw-build-tree
