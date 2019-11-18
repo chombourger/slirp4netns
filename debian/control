@@ -2,7 +2,16 @@ Source: slirp4netns
 Section: misc
 Priority: optional
 Maintainer: Reinhard Tartler <siretart@tauware.de>
-Build-Depends: debhelper (>= 9), autotools-dev, dh-autoreconf, automake, autoconf, libcap-dev, libseccomp-dev, jq, ncat|nmap
+Build-Depends: debhelper (>= 9),
+               autoconf,
+               automake,
+               autotools-dev,
+               dh-autoreconf,
+               jq,
+               libcap-dev,
+               libglib2.0-dev,
+               libseccomp-dev,
+               ncat|nmap
 Standards-Version: 3.9.8
 Homepage: https://github.com/rootless-containers/slirp4netns
 Vcs-Browser: https://salsa.debian.org/debian/slirp4netns
